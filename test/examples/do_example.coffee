@@ -1,0 +1,4 @@
+do ->
+  reachable()
+  return
+  unreachable()

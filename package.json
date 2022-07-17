@@ -1,0 +1,71 @@
+{
+  "_args": [
+    [
+      {
+        "name": "coffeelint-no-code-after-return",
+        "raw": "coffeelint-no-code-after-return@https://registry.npmjs.org/coffeelint-no-code-after-return/-/coffeelint-no-code-after-return-0.0.3.tgz",
+        "rawSpec": "https://registry.npmjs.org/coffeelint-no-code-after-return/-/coffeelint-no-code-after-return-0.0.3.tgz",
+        "scope": null,
+        "spec": "https://registry.npmjs.org/coffeelint-no-code-after-return/-/coffeelint-no-code-after-return-0.0.3.tgz",
+        "type": "remote"
+      },
+      "/var/lib/jenkins/workspace/Wrap_Build_node_wrap"
+    ]
+  ],
+  "_from": "coffeelint-no-code-after-return@0.0.3",
+  "_id": "coffeelint-no-code-after-return@0.0.3",
+  "_inCache": true,
+  "_location": "/coffeelint-no-code-after-return",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "coffeelint-no-code-after-return",
+    "raw": "coffeelint-no-code-after-return@https://registry.npmjs.org/coffeelint-no-code-after-return/-/coffeelint-no-code-after-return-0.0.3.tgz",
+    "rawSpec": "https://registry.npmjs.org/coffeelint-no-code-after-return/-/coffeelint-no-code-after-return-0.0.3.tgz",
+    "scope": null,
+    "spec": "https://registry.npmjs.org/coffeelint-no-code-after-return/-/coffeelint-no-code-after-return-0.0.3.tgz",
+    "type": "remote"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/coffeelint-no-code-after-return/-/coffeelint-no-code-after-return-0.0.3.tgz",
+  "_shasum": "4c27954b8d327ea6646d547bd41fbd9f026e9b58",
+  "_shrinkwrap": null,
+  "_spec": "coffeelint-no-code-after-return@https://registry.npmjs.org/coffeelint-no-code-after-return/-/coffeelint-no-code-after-return-0.0.3.tgz",
+  "_where": "/var/lib/jenkins/workspace/Wrap_Build_node_wrap",
+  "author": {
+    "email": "jellymann@gmail.com",
+    "name": "Daniel Smith",
+    "url": "http://www.sourlemon.co.za/"
+  },
+  "dependencies": {},
+  "description": "CoffeeLint plugin for detecting dead code after return statements.",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "coffee-script": "^1.9.3",
+    "coffeelint": "^1.9.7",
+    "lodash": "^3.9.3"
+  },
+  "keywords": [
+    "coffeelintrule",
+    "coffeelint",
+    "coffee-lint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "coffeelint-no-code-after-return",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "coffeelint": ">=1.9"
+  },
+  "readme": "CoffeeLint No Code After Return\n===============================\n[![Circle CI](https://circleci.com/gh/jellymann/coffeelint-no-code-after-return/tree/master.svg?style=svg)](https://circleci.com/gh/jellymann/coffeelint-no-code-after-return/tree/master)\n\nA plugin for [CoffeeLint](http://www.coffeelint.org/) for detecting dead code after return statements.\n\nUsage\n-----\n\nInstall it:\n\n    $ npm install -g coffeelint-no-code-after-return\n\nUse it:\n\n    {\n      \"no_code_after_return\": {\n        \"module\": \"coffeelint-no-code-after-return\"\n      }\n    }\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/jellymann/coffeelint-no-code-after-return"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.0.3"
+}
